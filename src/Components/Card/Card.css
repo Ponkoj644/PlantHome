@@ -1,0 +1,81 @@
+.single-card {
+  position: relative;
+}
+
+.front-face,
+.back-face {
+  position: absolute;
+}
+
+.single-card {
+  height: 250px;
+  width: 180px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  filter: drop-shadow(2px 3px 4px rgb(0, 0, 0.2));
+}
+.single-card .front-face img {
+  height: 250px;
+  width: 180px;
+  border-radius: 10px;
+}
+
+.single-card .front-face,
+.back-face {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /* background-image: url(../../../public/1.jpg); */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+.single-card .back-face {
+  content: "";
+  transform: rotateY(180deg);
+  background: #000;
+}
+.single-card .back-face h5 {
+  margin-top: 20%;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.single-card .back-face p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #fff;
+  /* letter-spacing: 11px; */
+  text-align: start;
+  margin-left: 10px;
+}
+.single-card .price {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+.single-card a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--primarycolor);
+  border: 1px solid var(--primarycolor);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.2s all ease-in-out;
+}
+.single-card a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.single-card:hover .back-face {
+  transform: rotateY(0deg);
+}
+.single-card:hover .front-face {
+  transform: rotateY(-180deg);
+}

@@ -1,0 +1,7 @@
+.our-gallery {
+  padding: 50px 0;
+}
+
+.our-gallery .MuiImageList-standard {
+  gap: 5px !important;
+}

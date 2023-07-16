@@ -1,0 +1,17 @@
+.sub-header {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.sub-header .heading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.sub-header img {
+  min-height: 100px;
+}

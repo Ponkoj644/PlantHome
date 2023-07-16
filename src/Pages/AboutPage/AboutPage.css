@@ -1,0 +1,18 @@
+.aboutPage {
+  padding: 75px 0;
+}
+
+.aboutPage .address h4 {
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.aboutPage .address p {
+  font-weight: 600;
+}
+
+.aboutPage .address svg {
+  color: var(--primarycolor);
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}

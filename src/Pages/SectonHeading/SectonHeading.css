@@ -1,0 +1,33 @@
+.section-heading {
+  -webkit-filter: drop-shadow(2px 3px 4px rgb(0, 0, 0s));
+  filter: drop-shadow(2px 3px 4px rgb(0, 0, 0.2));
+  /* width:100%; */
+}
+.section-heading h1 {
+}
+
+/* Animation CSS */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 15px;
+  left: 0;
+
+  background-color: var(--primarycolor);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* Animation CSS */

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "POTHOS ",
+    "image": "https://i.ibb.co/6YkYvZY/g6.jpg",
+    "category": "Indor plant",
+    "price": "$10"
+  },
+  {
+    "id": 2,
+    "name": "Monstera Deliciosa",
+    "image": "https://i.ibb.co/jhGS8DQ/p1.jpg",
+    "category": "Indor plant",
+    "price": "$12"
+  },
+  {
+    "id": 3,
+    "name": "AIR PLANT",
+    "image": "https://i.ibb.co/9bYFZpn/u6.jpg",
+    "category": "Indor plant",
+    "price": "$20"
+  },
+  {
+    "id": 4,
+    "name": "CHINESE EVERGREEN",
+    "image": "https://i.ibb.co/5RBVcJm/u4.jpg",
+    "category": "Indor plant",
+    "price": "$16"
+  },
+  {
+    "id": 5,
+    "name": "Monstera Deliciosa",
+    "image": "https://i.ibb.co/jhGS8DQ/p1.jpg",
+    "category": "Indor plant",
+    "price": "$8"
+  },
+  {
+    "id": 6,
+    "name": "ALOCASIA",
+    "image": "https://i.ibb.co/7RkSFs6/p6.jpg",
+    "category": "Indor plant",
+    "price": "$10"
+  },
+  {
+    "id": 7,
+    "name": "HAWORTHIA",
+    "image": "https://i.ibb.co/4TVks39/u1.jpg",
+    "category": "Indor plant",
+    "price": "$13"
+  },
+  {
+    "id": 8,
+    "name": "SPIDER PLANT",
+    "image": "https://i.ibb.co/s5NNqMS/u3.jpg",
+    "category": "Indor plant",
+    "price": "$25"
+  },
+  {
+    "id": 9,
+    "name": "CHINESE EVERGREEN",
+    "image": "https://i.ibb.co/5RBVcJm/u4.jpg",
+    "category": "Indor plant",
+    "price": "$14"
+  },
+  {
+    "id": 10,
+    "name": "WATERMELON PEPEROMIA",
+    "image": "https://i.ibb.co/q5yx9WD/u5.jpg",
+    "category": "Indor plant",
+    "price": "$22"
+  },
+  {
+    "id": 11,
+    "name": "AIR PLANT",
+    "image": "https://i.ibb.co/9bYFZpn/u6.jpg",
+    "category": "Indor plant",
+    "price": "$18"
+  },
+  {
+    "id": 12,
+    "name": "AFRICAN VIOLET",
+    "image": "https://i.ibb.co/XFrwFjf/u7.jpg",
+    "category": "Indor plant",
+    "price": "$25"
+  }
+]
