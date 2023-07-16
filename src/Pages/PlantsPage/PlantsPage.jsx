@@ -17,7 +17,7 @@ const PlantsPage = () => {
     {
       id: 1,
       name: "Monstera Deliciosa",
-      image: "../../../public/p1.jpg",
+      image: "https://i.ibb.co/jhGS8DQ/p1.jpg",
       details:
         "Also called mother-in-law's tongue, this hardy houseplant is almost impossible to kill. Although it prefers bright light, it will also persevere through dim lighting, temperature fluctuations, and lapses in watering.",
       size: "3 to 20 feet tall.",
@@ -29,7 +29,7 @@ const PlantsPage = () => {
     {
       id: 2,
       name: "Fiddle Leaf Fig",
-      image: "../../../public/p2.jpg",
+      image: "https://i.ibb.co/ryxkMWZ/g1.jpg",
       details:
         "Rubber plants can threaten to outgrow a room, but can be kept in check by pruning off the top at the central stem. This will encourage growth of side branches. Keeping your plant in a smaller pot will also curb its growth.",
       size: "Up to 10 feet tall.",
@@ -41,7 +41,7 @@ const PlantsPage = () => {
     {
       id: 3,
       name: "Snake Plant",
-      image: "../../../public/p3.jpg",
+      image: "https://i.ibb.co/89vC9Vn/p3.jpg",
       details:
         "Also called mother-in-law's tongue, this hardy houseplant is almost impossible to kill. Although it prefers bright light, it will also persevere through dim lighting, temperature fluctuations, and lapses in watering.",
       size: "6 to 20 inches tall.",
@@ -53,7 +53,7 @@ const PlantsPage = () => {
     {
       id: 4,
       name: "POTHOS ",
-      image: "../../../public/p4.jpg",
+      image: "https://i.ibb.co/6YkYvZY/g6.jpg",
       details:
         "One of the easiest houseplants to grow. This tropical vine comes in a variety of foliage colors and patterns. Pothos can be trimmed and kept compact, allowed to trail from hanging baskets, or trained up vertical supports.",
       size: "Vines 6 to 10 feet long.",
@@ -64,7 +64,7 @@ const PlantsPage = () => {
     {
       id: 5,
       name: "ZZ Plant",
-      image: "../../../public/p5.jpg",
+      image: "https://i.ibb.co/r6Q5Vhx/p5.jpg",
       details:
         "The naturally shiny leaves of the ZZ plant require little effort to maintain their good looks. Simply dust them off with a damp cloth (leaf sprays may damage the foliage). ZZ plants also do well in medium/bright, indirect light. Keep in mind that all parts of the plant are toxic, so keep away from children and pets.",
       size: "2 to 3 feet tall.",
@@ -76,7 +76,7 @@ const PlantsPage = () => {
     {
       id: 6,
       name: "ALOCASIA",
-      image: "../../../public/p6.jpg",
+      image: "https://i.ibb.co/7RkSFs6/p6.jpg",
       details:
         "Given the right conditions, these lush and leafy tropical plants can thrive indoors in well-lit areas, making them a bold focal point of any sunny room. In addition to bright light, alocasias also require a humid environment, so keep plants well-hydrated by using a humidifier or misting the leaves regularly.",
       size: "2 to 6 feet tall and wide, depending on variety.",
@@ -88,7 +88,7 @@ const PlantsPage = () => {
     {
       id: 7,
       name: "HAWORTHIA",
-      image: "../../../public/u1.jpg",
+      image: "https://i.ibb.co/4TVks39/u1.jpg",
       details:
         "Ideal for narrow windowsills, the slow-growing succulent remains neat and compact. In summer, creamy white flowers bloom on long stems. Haworthias need almost no care and rarely need repotting.",
       size: "3 to 5 inches tall.",
@@ -98,7 +98,7 @@ const PlantsPage = () => {
     {
       id: 8,
       name: "SPIDER PLANT",
-      image: "../../../public/u3.jpg",
+      image: "https://i.ibb.co/s5NNqMS/u3.jpg",
       details:
         "One of the easiest plants to propagate. Simply cut the baby spiders from their runners and place in moist potting soil. You can also stick them in a glass of water for a week or so until roots form and then pot in fresh soil.",
       size: "6 to 8 inches tall, with cascading runners.",
@@ -110,7 +110,7 @@ const PlantsPage = () => {
     {
       id: 9,
       name: "CHINESE EVERGREEN",
-      image: "../../../public/u4.jpg",
+      image: "https://i.ibb.co/5RBVcJm/u4.jpg",
       details:
         "Chinese evergreens hate cold drafts and temperatures below 55 degrees F. Locate your plant away from drafty doorways, windows, and air-conditioning vents. Plants with darker green leaves can tolerate less light, while variegated varieties prefer brighter light.",
       size: "2 to 3 feet tall.",
@@ -122,7 +122,7 @@ const PlantsPage = () => {
     {
       id: 10,
       name: "WATERMELON PEPEROMIA",
-      image: "../../../public/u5.jpg",
+      image: "https://i.ibb.co/q5yx9WD/u5.jpg",
       details:
         "Also known as Swiss cheese plant or split-leaf philodendron, this tropical beauty sports lush green leaves that develop deep slits or holes as they mature. In nature, these vine-like plants love to climb trees with their aerial roots, so provide a moss pole or other support to accommodate their ascent.",
       size: "6 to 8 inches tall.",
@@ -134,7 +134,7 @@ const PlantsPage = () => {
     {
       id: 11,
       name: "AIR PLANT",
-      image: "../../../public/u6.jpg",
+      image: "https://i.ibb.co/9bYFZpn/u6.jpg",
       details:
         "Air plants put down no roots and receive nutrients and moisture through their leaves. Once an air plant blooms, it will produce offshoots that will become new plants in one to two years.",
       size: "Varies, depending on the variety.",
@@ -146,7 +146,7 @@ const PlantsPage = () => {
     {
       id: 12,
       name: "AFRICAN VIOLET",
-      image: "../../../public/u7.jpg",
+      image: "https://i.ibb.co/XFrwFjf/u7.jpg",
       details:
         "Thousands of cultivars give you a choice of almost any flower color, as well as single, double, and bicolored blooms. African violets will bloom repeatedly during spring and summer when given enough sunlight, with the blooms lasting up to a few weeks.",
       size: "Usually under 4 inches tall.",
