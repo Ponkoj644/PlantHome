@@ -2,15 +2,6 @@ import { Component } from "react";
 import Slider from "react-slick";
 import "./UppSlider.css";
 
-import SliderImg1 from "../../../public/u1.jpg";
-import SliderImg2 from "../../../public/u2.jpg";
-import SliderImg3 from "../../../public/u3.jpg";
-import SliderImg4 from "../../../public/u4.jpg";
-import SliderImg5 from "../../../public/u5.jpg";
-import SliderImg6 from "../../../public/u6.jpg";
-import SliderImg7 from "../../../public/u7.jpg";
-import SliderImg8 from "../../../public/u8.jpg";
-
 export default class Responsive extends Component {
   constructor(props) {
     super(props);
@@ -65,7 +56,11 @@ export default class Responsive extends Component {
         <Slider {...settings}>
           <div className="single-slide">
             <div className="slide-img">
-              <img src={SliderImg1} alt="" className=" w-100" />
+              <img
+                src="https://i.ibb.co/4TVks39/u1.jpg"
+                alt=""
+                className=" w-100"
+              />
             </div>
             <div className="slide-text">
               <h3>HAWORTHIA(Haworthia spp.)</h3>
@@ -81,7 +76,11 @@ export default class Responsive extends Component {
 
           <div className="single-slide">
             <div className="slide-img">
-              <img src={SliderImg2} alt="" className=" w-100" />
+              <img
+                src="https://i.ibb.co/RCCP4vg/u2.jpg"
+                alt=""
+                className=" w-100"
+              />
             </div>
             <div className="slide-text">
               <h3>ALOE(Aloe vera spp.)</h3>
@@ -98,7 +97,11 @@ export default class Responsive extends Component {
 
           <div className="single-slide">
             <div className="slide-img">
-              <img src={SliderImg3} alt="" className=" w-100" />
+              <img
+                src="https://i.ibb.co/s5NNqMS/u3.jpg"
+                alt=""
+                className=" w-100"
+              />
             </div>
             <div className="slide-text">
               <h3>SPIDER PLANT (Chlorophytum comosum)</h3>
@@ -115,7 +118,11 @@ export default class Responsive extends Component {
 
           <div className="single-slide">
             <div className="slide-img">
-              <img src={SliderImg4} alt="" className=" w-100" />
+              <img
+                src="https://i.ibb.co/5RBVcJm/u4.jpg"
+                alt=""
+                className=" w-100"
+              />
             </div>
             <div className="slide-text">
               <h3>CHINESE EVERGREEN (Aglaonema spp.)</h3>
@@ -133,7 +140,11 @@ export default class Responsive extends Component {
 
           <div className="single-slide">
             <div className="slide-img">
-              <img src={SliderImg5} alt="" className=" w-100" />
+              <img
+                src="https://i.ibb.co/q5yx9WD/u5.jpg"
+                alt=""
+                className=" w-100"
+              />
             </div>
             <div className="slide-text">
               <h3>WATERMELON PEPEROMIA (Peperomia argyreia)</h3>
@@ -151,7 +162,11 @@ export default class Responsive extends Component {
 
           <div className="single-slide">
             <div className="slide-img">
-              <img src={SliderImg6} alt="" className=" w-100" />
+              <img
+                src="https://i.ibb.co/9bYFZpn/u6.jpg"
+                alt=""
+                className=" w-100"
+              />
             </div>
             <div className="slide-text">
               <h3>AIR PLANT (Ficus elastica)</h3>
@@ -167,7 +182,11 @@ export default class Responsive extends Component {
 
           <div className="single-slide">
             <div className="slide-img">
-              <img src={SliderImg7} alt="" className=" w-100" />
+              <img
+                src="https://i.ibb.co/XFrwFjf/u7.jpg"
+                alt=""
+                className=" w-100"
+              />
             </div>
             <div className="slide-text">
               <h3>AFRICAN VIOLET (Saintpaulia ionantha)</h3>
@@ -185,7 +204,11 @@ export default class Responsive extends Component {
 
           <div className="single-slide">
             <div className="slide-img">
-              <img src={SliderImg8} alt="" className=" w-100" />
+              <img
+                src="https://i.ibb.co/Vp1g9L0/u8.jpg"
+                alt=""
+                className=" w-100"
+              />
             </div>
             <div className="slide-text">
               <h3>JADE PLANT (Crassula ovata)</h3>
